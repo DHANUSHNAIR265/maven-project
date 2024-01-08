@@ -1,9 +1,10 @@
 pipeline {
     agent any
     tools { 
-        maven 'maven' 
+        maven 'MAVEN' 
 
     }
+         stages {
          
           stage ('compile') {
             steps {
